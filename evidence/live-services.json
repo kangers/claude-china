@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-02T13:48:29.577Z",
+  "browser": "153.0.8010.12",
+  "note": "Live default service results are redacted. Loopback STUN is controlled protocol evidence, not external public-path evidence.",
+  "live": {
+    "network": {
+      "status": "complete",
+      "family": 4,
+      "country": "US",
+      "asn": 906,
+      "timezone": "America/Los_Angeles"
+    },
+    "browserTimezone": "Asia/Shanghai",
+    "timezoneComparison": "different",
+    "rtc": {
+      "status": "timeout",
+      "reason": "timeout",
+      "publicCount": 1,
+      "families": [
+        4
+      ]
+    },
+    "rtcComparison": "inconclusive"
+  },
+  "controlledStun": {
+    "status": "timeout",
+    "count": 1,
+    "hasControlledCandidate": true,
+    "comparison": "inconclusive",
+    "bindings": 11
+  },
+  "pass": true
+}
