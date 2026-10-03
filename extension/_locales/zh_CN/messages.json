@@ -1,0 +1,8 @@
+{
+  "extensionName": {
+    "message": "Claude China — 独立环境诊断"
+  },
+  "extensionDescription": {
+    "message": "了解网络与浏览器环境，比较主动检查之间的变化，并对照 Claude 官方地区名单。"
+  }
+}
