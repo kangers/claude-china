@@ -26,18 +26,18 @@ Updated 2026-10-03. The user authorized Chrome Web Store publishing and uploadin
 
 ## GitHub
 
-The user changed the publishing owner to **kangers** on 2026-10-03. The native GitHub page created the public repository successfully: https://github.com/kangers/claude-china (initial commit `93d05bfbbe8563bb15790a90ae427d0f512ce6fd`). Source upload and Pages deployment are in progress, not yet claimed complete.
+The user changed the publishing owner to **kangers** on 2026-10-03. The native GitHub page created the public repository successfully: https://github.com/kangers/claude-china (initial commit `93d05bfbbe8563bb15790a90ae427d0f512ce6fd`). 66 text files have been published and checked against local source (only final-newline normalization accepted). 35 PNG/GIF files remain pending browser file-upload access; the GitHub main branch is not yet a complete installable extension.
 
 The connector remains authenticated as a different account and reports no push permission on this repository. Upload uses the authorized browser session; no collaborators or credentials are added. Local GitHub CLI remains unauthenticated.
 
-Static bilingual policy source is in `docs/privacy`; build synchronizes it with the packaged policy. Enable Pages from `main` and `/docs`, verify the actual public `/privacy/` URL, and then enter it in the Store. Support/privacy contact: jackmac2077@gmail.com.
+GitHub Pages is enabled from `main` and `/docs`, with HTTPS enforced. The official build-and-deployment workflow succeeded. Live bilingual policy was opened and verified at https://kangers.github.io/claude-china/privacy/ . The body matches the packaged policy except a final newline added by the GitHub editor. A publisher landing page is at https://kangers.github.io/claude-china/ . The Privacy URL has not yet been entered in the Store. Support/privacy contact: jackmac2077@gmail.com.
 
 Source license: MIT in `LICENSE`, without rights to third-party marks. Claude China is an independent tool, not an official China service or Anthropic product; name/trademark clearance is not established.
 
 ## Current blockers
 
 1. The user reports publisher email verification completed on 2026-10-03. Dashboard confirmation is pending: the Store blocks tab scripting, and automatic approval rejected reading the current Chrome window because it had previously shown unrelated Gmail. The user was asked to foreground the Store settings page and authorize reading that publishing window. No Dashboard verification success is yet claimed.
-2. Public policy URL is not yet deployed. Repository creation succeeded; source upload and Pages deployment are pending.
+2. Policy hosting is complete, but Store Privacy URL entry is pending native browser access. Source PNG/GIF upload is blocked until the browser ChatGPT extension can access file URLs; the user was asked to enable this temporarily. No browser permission was changed by the agent.
 3. Optional Store icon replacement awaits action-time confirmation because the old-icon removal dialog states that deletion cannot be undone. Local old artwork remains available.
 
 An upload-ready source export is at `/private/tmp/claude-china-github-source`, with a source archive at `/private/tmp/claude-china-source-rc3.zip`. It excludes `.git`, dependency folders, browser profiles and generated dist binaries. A known secret-pattern scan passed; this is not an exhaustive security guarantee.
