@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-02T19:17:28.910Z",
+  "version": "1.0.0 RC3",
+  "changes": "Avatar icons and version_name only. Diagnostic code unchanged.",
+  "packageFiles": 23,
+  "sourceDistZipMatch": true,
+  "iconsVerified": [
+    16,
+    32,
+    48,
+    128
+  ],
+  "zipBytes": 593546,
+  "sha256": "3f49332b91f5a2a95e544d603c2cfa33cee187e714e3d24159e6b77ef011b52c",
+  "coreGroupsPassed": 9,
+  "browserEvidence": "RC2 historical 28 checks; no RC3 browser rerun",
+  "storeDraftId": "iiflbjmffalbheleopgcnkbdboobmajm",
+  "storePackageVersionObserved": "1.0.0 RC3",
+  "submitted": false
+}
