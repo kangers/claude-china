@@ -1,0 +1,104 @@
+{
+  "at": "2026-10-02T14:31:45.150Z",
+  "productName": "Claude China",
+  "version": "1.0.0 RC2",
+  "zipBytes": 554341,
+  "sha256": "bf396eebcf31116111471b912d507200b399c948fadfd5c9c7fe881cd0cf78e1",
+  "sourcePackageMatch": true,
+  "sourcePackageFiles": 23,
+  "zipContentMatch": true,
+  "browserPass": true,
+  "browserChecks": 28,
+  "coreTestGroups": 9,
+  "liveReportHistorical": true,
+  "liveReportRelease": "1.0.0 RC1",
+  "liveReportAt": "2026-10-02T13:48:29.577Z",
+  "liveReportPass": true,
+  "nativeRC2": "Actual toolbar UI inspected; intended fixture did not intercept one GeoJS request. Browser immediately closed; no further network check. See MANUAL_ACCEPTANCE.md.",
+  "offlineLauncherGuard": "Updated source; not relaunched to trigger another native query",
+  "defaultInterfaceLanguage": "zh-CN",
+  "defaultManifestLocale": "zh_CN",
+  "permissions": [
+    "storage"
+  ],
+  "hostPermissions": [
+    "https://get.geojs.io/*"
+  ],
+  "runtimeDependencies": 0,
+  "supportContact": "jackmac2077@gmail.com",
+  "supportLinkNoDiagnosticPayload": true,
+  "illustrationSources": [
+    "assets/artwork/observer-idle-source.png",
+    "assets/artwork/observer-source-v2.png",
+    "assets/artwork/observer-done-source.png"
+  ],
+  "motionPreview": {
+    "file": "evidence/motion-preview.gif",
+    "width": 400,
+    "height": 600,
+    "frames": 72,
+    "networkData": "illustrative"
+  },
+  "assets": [
+    {
+      "file": "01-overview-en.png",
+      "width": 1280,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "01-overview-zh.png",
+      "width": 1280,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "02-network-browser-en.png",
+      "width": 1280,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "02-network-browser-zh.png",
+      "width": 1280,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "03-history-availability-en.png",
+      "width": 1280,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "03-history-availability-zh.png",
+      "width": 1280,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "04-differences-zh.png",
+      "width": 1280,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "promo-marquee.png",
+      "width": 1400,
+      "height": 560,
+      "alpha": false
+    },
+    {
+      "file": "promo-small.png",
+      "width": 440,
+      "height": 280,
+      "alpha": false
+    },
+    {
+      "file": "store-icon-128.png",
+      "width": 128,
+      "height": 128,
+      "alpha": true
+    }
+  ]
+}
