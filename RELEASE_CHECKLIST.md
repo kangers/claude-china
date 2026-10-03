@@ -30,8 +30,9 @@ The RC3 package is uploaded as a draft. Submission has not occurred. Current ope
 - [x] RC3 ZIP and localized listing/screenshots/promotional assets uploaded and saved; Package page confirms `1.0.0 RC3`.
 - [x] Current privacy categories, minimum permissions, No Remote Code, Single Purpose and reviewer notes saved.
 - [ ] Confirm verified contact status in Dashboard. User reports verification completed 2026-10-03; direct Dashboard confirmation is pending browser access.
-- [ ] Create the public repository in the selected GitHub account and upload audited source. Public kangers/claude-china repository created; source upload pending.
-- [ ] Deploy bilingual policy to public HTTPS without sign-in, verify actual contents, enter Store Privacy URL and save.
+- [ ] Create the public repository in the selected GitHub account and upload audited source. Public kangers/claude-china created; 66 text files verified, 35 PNG/GIF files pending browser file access.
+- [x] Deploy bilingual policy to public HTTPS and verify live content: https://kangers.github.io/claude-china/privacy/ .
+- [ ] Enter live policy URL in Store Privacy field and save; native publishing-window access pending.
 - [ ] Replace old Store icon if the user confirms its irreversible removal; new local/package artwork is complete.
 - [ ] Confirm Claude China brand-use/name clearance; independence wording does not grant trademark rights.
 - [ ] Recheck official policies, supplier terms and Claude.ai list on actual submission day. Update source verification dates only after real re-verification.
