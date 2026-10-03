@@ -1,0 +1,5 @@
+node_modules/
+.test-profile*/
+.DS_Store
+playwright-report/
+test-results/
